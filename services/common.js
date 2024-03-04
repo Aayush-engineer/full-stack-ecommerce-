@@ -6,7 +6,7 @@ let transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // true for 465, false for other ports
   auth: {
-    user: "coderdost@gmail.com", // gmail
+    user: "attireeleganceoriginal@gmail.com", // gmail
     pass: process.env.MAIL_PASSWORD, // pass
   },
 });
@@ -25,15 +25,12 @@ exports.cookieExtractor = function (req) {
     token = req.cookies["jwt"];
   }
 
-  token =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTNmZGU0YTM4MmIyZmY2NDA2MWI2YiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcwOTQ0MDQ4NH0.YJvDHEbYFMKTYasLeo30POuitTW_4BsiBJlsskVh-T4";
-
   return token;
 };
 
 exports.sendMail = async function ({ to, subject, text, html }) {
   let info = await transporter.sendMail({
-    from: '"E-commerce" <coderdost@gmail.com>', // sender address
+    from: '"Urbancool" <urbancoolteam@urbancool.in>', // sender address
     to,
     subject,
     text,
