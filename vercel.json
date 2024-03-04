@@ -1,162 +1,94 @@
 {
   "builds": [
-    { "src": "index.js", "use": "@vercel/node" },
-    { "src": "build/**", "use": "@vercel/static" }
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "build/**",
+      "use": "@vercel/static"
+    }
   ],
- "routes": [
-    {
-      "src": "/home/:category",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/admin",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/login",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/signup",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/cart",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/checkout",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/product-detail/:id",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/admin/product-detail/:id",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/admin/product-form",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/admin/orders",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/admin/product-form/edit/:id",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/order-success/:id",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/my-orders",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/profile",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/stripe-checkout/",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/logout",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/forgot-password",
-      "dest": "/index.js"
-    },
-    {
-      "src": "/reset-password",
-      "dest": "/index.js"
-    },
+  "routes": [
     {
       "src": "/products",
-      "dest": "/index.js"
-    },  
+      "dest": "index.js"
+    },
+    {
+      "src": "/products/(.*)",
+      "dest": "index.js"
+    },
     {
       "src": "/categories",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/categories/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/brands",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/brands/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/users",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/users/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/auth",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/auth/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/cart",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/cart/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/orders",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/orders/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/orders",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/orders/(.*)",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/webhook",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/create-payment-intent",
-      "dest": "/index.js"
+      "dest": "index.js"
     },
     {
       "src": "/",
-      "dest": "/build/index.html"
+      "dest": "build/index.html"
     },
     {
       "src": "/(.+)",
-      "dest": "/build/$1"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "handle": "miss"
+      "dest": "build/$1"
     }
   ]
 }
