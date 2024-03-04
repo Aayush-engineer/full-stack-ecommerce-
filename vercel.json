@@ -4,26 +4,20 @@
     { "src": "build/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/products", "dest": "index.js" },
-    { "src": "/products/(.*)", "dest": "index.js" },
-    { "src": "/categories", "dest": "index.js" },
-    { "src": "/categories/(.*)", "dest": "index.js" },
-    { "src": "/brands", "dest": "index.js" },
-    { "src": "/brands/(.*)", "dest": "index.js" },
-    { "src": "/users", "dest": "index.js" },
-    { "src": "/users/(.*)", "dest": "index.js" },
-    { "src": "/auth", "dest": "index.js" },
-    { "src": "/auth/(.*)", "dest": "index.js" },
-    { "src": "/cart", "dest": "index.js" },
-    { "src": "/cart/(.*)", "dest": "index.js" },
-    { "src": "/orders", "dest": "index.js" },
-    { "src": "/orders/(.*)", "dest": "index.js" },
-    { "src": "/orders", "dest": "index.js" },
-    { "src": "/orders/(.*)", "dest": "index.js" },
-    { "src": "/webhook", "dest": "index.js" },
-    { "src": "/create-payment-intent", "dest": "index.js" },
-    { "src": "/", "dest": "build/index.html" },
-    { "src": "/(.+)", "dest": "build/index.html" }
+    { "src": "/(.+\\.(js|css|png|jpg|jpeg|gif|ico|json|woff2|woff|ttf|svg))$", "dest": "/$1" },
+    { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/(.*)", "dest": "/build/index.html" }
+  ],
+  "rewrites": [
+    { "source": "/products", "destination": "/index.js" },
+    { "source": "/categories", "destination": "/index.js" },
+    { "source": "/brands", "destination": "/index.js" },
+    { "source": "/users", "destination": "/index.js" },
+    { "source": "/auth", "destination": "/index.js" },
+    { "source": "/cart", "destination": "/index.js" },
+    { "source": "/orders", "destination": "/index.js" },
+    { "source": "/webhook", "destination": "/index.js" },
+    { "source": "/create-payment-intent", "destination": "/index.js" }
   ]
 }
 
