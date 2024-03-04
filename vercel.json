@@ -1,7 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ],
   "routes": [
     { "src": "/products", "dest": "index.js" },
     { "src": "/products/(.*)", "dest": "index.js" },
@@ -22,7 +19,7 @@
     { "src": "/webhook", "dest": "index.js" },
     { "src": "/create-payment-intent", "dest": "index.js" },
     { "src": "/", "dest": "build/index.html" },
-    { "src": "/(.+)", "dest": "build/$1" }
+    { "src": "/(.+)", "dest": "build/index.html" }
   ]
 }
 
