@@ -88,7 +88,7 @@
     },
     {
       "src": "/(.+)",
-      "dest": "build/index.html"
+      "dest": "build/$1"
     }
   ]
 }
