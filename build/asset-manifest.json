@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.11dc9b46.css",
-    "main.js": "/static/js/main.9b9b462b.js",
+    "main.css": "/static/css/main.39aec667.css",
+    "main.js": "/static/js/main.c001f555.js",
     "static/js/787.f1ea84b0.chunk.js": "/static/js/787.f1ea84b0.chunk.js",
     "static/media/footer-pattern.jpg": "/static/media/footer-pattern.b2c6e6dcc3abb3914c1d.jpg",
     "static/media/shirt.png": "/static/media/shirt.2158cfde59d98537adbe.png",
+    "static/media/men.png": "/static/media/men.62a1d15807a2be1b0151.png",
     "static/media/shirt2.png": "/static/media/shirt2.5204a164260500adea6d.png",
-    "static/media/women.png": "/static/media/women.f171f124df4d16b65029.png",
     "static/media/sale.png": "/static/media/sale.520f3174bffb33116128.png",
     "static/media/shopping.png": "/static/media/shopping.5df962e820edb4d3a124.png",
     "static/media/shirt3.png": "/static/media/shirt3.7f145304848763ce4ee4.png",
+    "static/media/women2.jpg": "/static/media/women2.deb6d4bc3b36c427c4b0.jpg",
     "static/media/dark-mode-button.png": "/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
     "static/media/light-mode-button.png": "/static/media/light-mode-button.9ed4504ff522dfde699a.png",
     "static/media/logo.png": "/static/media/logo.9e010989c469d4c0e8ad.png",
-    "static/media/women2.jpg": "/static/media/women2.b095b5ece1ec61c6769b.jpg",
     "static/media/jeans.png": "/static/media/jeans.af83abe98849993697da.png",
     "static/media/combo.png": "/static/media/combo.5bc8e75473fcbab88246.png",
     "static/media/polo-shirt.png": "/static/media/polo-shirt.edcb7d89dce4248545fb.png",
@@ -23,12 +23,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.11dc9b46.css.map": "/static/css/main.11dc9b46.css.map",
-    "main.9b9b462b.js.map": "/static/js/main.9b9b462b.js.map",
+    "main.39aec667.css.map": "/static/css/main.39aec667.css.map",
+    "main.c001f555.js.map": "/static/js/main.c001f555.js.map",
     "787.f1ea84b0.chunk.js.map": "/static/js/787.f1ea84b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11dc9b46.css",
-    "static/js/main.9b9b462b.js"
+    "static/css/main.39aec667.css",
+    "static/js/main.c001f555.js"
   ]
 }
