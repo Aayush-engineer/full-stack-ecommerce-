@@ -167,7 +167,6 @@ passport.serializeUser(function (user, cb) {
 });
 
 // this changes session variable req.user when called from authorized request
-
 passport.deserializeUser(function (user, cb) {
   process.nextTick(function () {
     return cb(null, user);

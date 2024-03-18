@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.39aec667.css",
-    "main.js": "/static/js/main.c001f555.js",
+    "main.css": "/static/css/main.2e8224e7.css",
+    "main.js": "/static/js/main.cc714527.js",
+    "static/js/988.35227f1b.chunk.js": "/static/js/988.35227f1b.chunk.js",
+    "static/js/441.50f26bbc.chunk.js": "/static/js/441.50f26bbc.chunk.js",
+    "static/js/865.a0a8f993.chunk.js": "/static/js/865.a0a8f993.chunk.js",
+    "static/js/905.ab8c78a0.chunk.js": "/static/js/905.ab8c78a0.chunk.js",
+    "static/js/230.76ce112a.chunk.js": "/static/js/230.76ce112a.chunk.js",
     "static/js/787.f1ea84b0.chunk.js": "/static/js/787.f1ea84b0.chunk.js",
+    "static/js/126.aee1ac54.chunk.js": "/static/js/126.aee1ac54.chunk.js",
     "static/media/footer-pattern.jpg": "/static/media/footer-pattern.b2c6e6dcc3abb3914c1d.jpg",
     "static/media/shirt.png": "/static/media/shirt.2158cfde59d98537adbe.png",
     "static/media/men.png": "/static/media/men.62a1d15807a2be1b0151.png",
@@ -10,10 +16,10 @@
     "static/media/sale.png": "/static/media/sale.520f3174bffb33116128.png",
     "static/media/shopping.png": "/static/media/shopping.5df962e820edb4d3a124.png",
     "static/media/shirt3.png": "/static/media/shirt3.7f145304848763ce4ee4.png",
+    "static/media/logo.png": "/static/media/logo.2be0d9ba8d938b5e93f6.png",
     "static/media/women2.jpg": "/static/media/women2.deb6d4bc3b36c427c4b0.jpg",
     "static/media/dark-mode-button.png": "/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
     "static/media/light-mode-button.png": "/static/media/light-mode-button.9ed4504ff522dfde699a.png",
-    "static/media/logo.png": "/static/media/logo.9e010989c469d4c0e8ad.png",
     "static/media/jeans.png": "/static/media/jeans.af83abe98849993697da.png",
     "static/media/combo.png": "/static/media/combo.5bc8e75473fcbab88246.png",
     "static/media/polo-shirt.png": "/static/media/polo-shirt.edcb7d89dce4248545fb.png",
@@ -23,12 +29,18 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.39aec667.css.map": "/static/css/main.39aec667.css.map",
-    "main.c001f555.js.map": "/static/js/main.c001f555.js.map",
-    "787.f1ea84b0.chunk.js.map": "/static/js/787.f1ea84b0.chunk.js.map"
+    "main.2e8224e7.css.map": "/static/css/main.2e8224e7.css.map",
+    "main.cc714527.js.map": "/static/js/main.cc714527.js.map",
+    "988.35227f1b.chunk.js.map": "/static/js/988.35227f1b.chunk.js.map",
+    "441.50f26bbc.chunk.js.map": "/static/js/441.50f26bbc.chunk.js.map",
+    "865.a0a8f993.chunk.js.map": "/static/js/865.a0a8f993.chunk.js.map",
+    "905.ab8c78a0.chunk.js.map": "/static/js/905.ab8c78a0.chunk.js.map",
+    "230.76ce112a.chunk.js.map": "/static/js/230.76ce112a.chunk.js.map",
+    "787.f1ea84b0.chunk.js.map": "/static/js/787.f1ea84b0.chunk.js.map",
+    "126.aee1ac54.chunk.js.map": "/static/js/126.aee1ac54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39aec667.css",
-    "static/js/main.c001f555.js"
+    "static/css/main.2e8224e7.css",
+    "static/js/main.cc714527.js"
   ]
 }
