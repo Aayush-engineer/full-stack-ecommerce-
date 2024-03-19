@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1b0a5f6.css",
-    "main.js": "/static/js/main.42fb931b.js",
-    "static/js/988.716b99a5.chunk.js": "/static/js/988.716b99a5.chunk.js",
+    "main.css": "/static/css/main.44e660bf.css",
+    "main.js": "/static/js/main.6416baae.js",
+    "static/js/988.51fe7dff.chunk.js": "/static/js/988.51fe7dff.chunk.js",
     "static/js/441.50f26bbc.chunk.js": "/static/js/441.50f26bbc.chunk.js",
     "static/js/865.a0a8f993.chunk.js": "/static/js/865.a0a8f993.chunk.js",
     "static/js/905.ab8c78a0.chunk.js": "/static/js/905.ab8c78a0.chunk.js",
     "static/js/230.76ce112a.chunk.js": "/static/js/230.76ce112a.chunk.js",
     "static/js/787.f1ea84b0.chunk.js": "/static/js/787.f1ea84b0.chunk.js",
-    "static/js/126.aee1ac54.chunk.js": "/static/js/126.aee1ac54.chunk.js",
+    "static/js/629.90a4c7aa.chunk.js": "/static/js/629.90a4c7aa.chunk.js",
     "static/media/polo-shirt.png": "/static/media/polo-shirt.d4d5c9670fd5d9b81323.png",
     "static/media/top.png": "/static/media/top.830e636df6d1aaddc1ac.png",
     "static/media/footer-pattern.jpg": "/static/media/footer-pattern.b2c6e6dcc3abb3914c1d.jpg",
@@ -19,31 +19,29 @@
     "static/media/sale.png": "/static/media/sale.520f3174bffb33116128.png",
     "static/media/shopping.png": "/static/media/shopping.5df962e820edb4d3a124.png",
     "static/media/shirt3.png": "/static/media/shirt3.7f145304848763ce4ee4.png",
-    "static/media/logo.png": "/static/media/logo.2be0d9ba8d938b5e93f6.png",
+    "static/media/logo1.png": "/static/media/logo1.2be0d9ba8d938b5e93f6.png",
     "static/media/women2.jpg": "/static/media/women2.deb6d4bc3b36c427c4b0.jpg",
     "static/media/new.png": "/static/media/new.79ab6145f2eec506c4d3.png",
     "static/media/combo.png": "/static/media/combo.688f4f17cddd983f3b8c.png",
     "static/media/dark-mode-button.png": "/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
     "static/media/light-mode-button.png": "/static/media/light-mode-button.9ed4504ff522dfde699a.png",
-    "static/media/jeans.png": "/static/media/jeans.af83abe98849993697da.png",
-    "static/media/cloth.png": "/static/media/cloth.ae47c4cb7f7a6b50cdb3.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b1b0a5f6.css.map": "/static/css/main.b1b0a5f6.css.map",
-    "main.42fb931b.js.map": "/static/js/main.42fb931b.js.map",
-    "988.716b99a5.chunk.js.map": "/static/js/988.716b99a5.chunk.js.map",
+    "main.44e660bf.css.map": "/static/css/main.44e660bf.css.map",
+    "main.6416baae.js.map": "/static/js/main.6416baae.js.map",
+    "988.51fe7dff.chunk.js.map": "/static/js/988.51fe7dff.chunk.js.map",
     "441.50f26bbc.chunk.js.map": "/static/js/441.50f26bbc.chunk.js.map",
     "865.a0a8f993.chunk.js.map": "/static/js/865.a0a8f993.chunk.js.map",
     "905.ab8c78a0.chunk.js.map": "/static/js/905.ab8c78a0.chunk.js.map",
     "230.76ce112a.chunk.js.map": "/static/js/230.76ce112a.chunk.js.map",
     "787.f1ea84b0.chunk.js.map": "/static/js/787.f1ea84b0.chunk.js.map",
-    "126.aee1ac54.chunk.js.map": "/static/js/126.aee1ac54.chunk.js.map"
+    "629.90a4c7aa.chunk.js.map": "/static/js/629.90a4c7aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b0a5f6.css",
-    "static/js/main.42fb931b.js"
+    "static/css/main.44e660bf.css",
+    "static/js/main.6416baae.js"
   ]
 }
