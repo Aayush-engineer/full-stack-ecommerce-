@@ -1,6 +1,6 @@
-{ 
+{
   "builds": [
-     {
+    {
       "src": "index.js",
       "use": "@vercel/node"
     },
@@ -90,6 +90,5 @@
       "src": "/(.+)",
       "dest": "build/$1"
     }
-  ],
- 
+  ]
 }
