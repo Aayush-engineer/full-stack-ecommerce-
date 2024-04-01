@@ -89,6 +89,13 @@
     {
       "src": "/(.+)",
       "dest": "build/$1"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "src": "/(.+)",
+      "dest": "build/index.html"
+>>>>>>> 7a9712a01e2a63b44972d36e712eae33de2844b4
     }
   ]
 }
