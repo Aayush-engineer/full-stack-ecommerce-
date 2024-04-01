@@ -25,8 +25,6 @@ exports.cookieExtractor = function (req) {
     token = req.cookies["jwt"];
   }
 
-
-
   return token;
 };
 
